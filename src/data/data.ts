@@ -2,23 +2,33 @@ import { Regalo } from "@/components/RegaloCard";
 
 export const REGALOS : Regalo[] = [
   {
-    nombre: "Abrazo",
-    precio: 10000,
+    nombre: "Amor",
+    precio: 165000,
     descripcion: "Un rico abrazo"
   },
   {
-    nombre: "Saludo",
-    precio: 5000,
+    nombre: "Cariño",
+    precio: 44000,
     descripcion: "Nunca está de más saludarnos"
   },
   {
-    nombre: "Cena",
-    precio: 50000,
+    nombre: "Confianza",
+    precio: 137500,
     descripcion: "Regálanos un momento especial"
   },
   {
-    nombre: "Viaje",
-    precio: 100000,
+    nombre: "Prosperidad",
+    precio: 55000,
+    descripcion: "Obsequianos una experiencia inolvidable"
+  },
+  {
+    nombre: "Tranquilidad",
+    precio: 110000,
+    descripcion: "Obsequianos una experiencia inolvidable"
+  },
+  {
+    nombre: "Felicidad",
+    precio: 82500,
     descripcion: "Obsequianos una experiencia inolvidable"
   },
 ] 

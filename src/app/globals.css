@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap&text=FelipAndrea');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,12 +20,9 @@
 html{
   scroll-behavior: smooth;
 }
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-start-rgb))
-    )
-    rgb(var(--background-end-rgb));
+
+
+
+body{
+    background: radial-gradient(50% 50% at 50% 50%,rgba(254, 250, 249, 0.30) 60.42%,rgba(235, 205, 173, 0.60) 100%),#F8ECE0;
 }
