@@ -3,7 +3,6 @@ import { FunctionComponent } from "react"
 export interface Regalo{
   nombre: string
   precio: number
-  descripcion: string
 }
 export interface RegaloCardProps{
   regalo: Regalo
@@ -19,21 +18,15 @@ const formatter = new Intl.NumberFormat('en-US', {
 
 const RegaloCard: FunctionComponent<RegaloCardProps> = props => {
   
-  const {nombre, precio, descripcion} = props.regalo
+  const {nombre, precio,} = props.regalo
   
   return (
     <a href='/gracias'>
-    <li className="m-auto w-[230px] sm:w-[340px] list-none rounded-lg border px-5 py-4 border-gray-600 hover:bg-gray-100">
-      <h2 className={`mb-3 text-2xl font-semibold`}>
-            {`${nombre}  `}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
+    <li className="m-auto w-[230px] sm:w-[340px] list-none p-5 border-4 border-amber-950 hover:border-amber-800 hover:scale-105 transition-transform font-serif px-5 py-4 ">
+      <h2 className={`mb-3 text-2xl font-semibold text-slate-600`}>
+            {nombre}
           </h2>
-          <h3 className="text-xl font-bold">{formatter.format(precio).replace(",",".")}</h3>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            {descripcion}
-          </p>
+          <h3 className=" text-xl font-bold text-slate-600">{formatter.format(precio).replace(",",".")}</h3>
     </li>
     </a>
   )

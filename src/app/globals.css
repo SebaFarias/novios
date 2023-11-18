@@ -1,15 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap&text=FelipAndra');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap&text=FelipAndrea');
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -21,8 +19,27 @@ html{
   scroll-behavior: smooth;
 }
 
-
-
 body{
-    background: radial-gradient(50% 50% at 50% 50%,rgba(254, 250, 249, 0.30) 60.42%,rgba(235, 205, 173, 0.60) 100%),#F8ECE0;
+  background: radial-gradient(50% 50% at 50% 50%,rgba(254, 250, 249, 0.30) 60.42%,rgba(235, 205, 173, 0.60) 100%),#F8ECE0 url('https://raw.githubusercontent.com/SebaFarias/sorting-viewer/3ac81d54736cdd92fc1196f812cf9513460f2d7d/src/assets/background-noise.png');
 }
+
+.flor-roja{
+  filter: 
+  drop-shadow(-2px 2px 5px rgb(156, 58, 81))
+  drop-shadow(5px 5px 5px rgb(247,218,186)) 
+  drop-shadow(2px -2px 5px rgb(245, 230, 214)) 
+  drop-shadow(-2px -2px 5px rgb(255, 217, 173));
+  }
+.hoja{
+  filter: 
+  drop-shadow(5px 5px 5px hsl(31, 79%, 95%)) 
+  drop-shadow(5px 5px 5px rgb(247,218,186)) 
+  drop-shadow(2px -2px 5px rgb(245, 230, 214)) 
+  drop-shadow(-2px -2px 5px rgb(255, 217, 173));
+  }
+
+  .regalo-card{
+    background-image: url("https://cdn.wallpapersafari.com/12/88/6bPZYo.jpg");
+    background-size: cover;
+    background-position: center;
+  }

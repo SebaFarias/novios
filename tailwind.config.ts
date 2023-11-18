@@ -11,7 +11,7 @@ const config: Config = {
       'sans': ['ui-sans-serif', 'system-ui'],
       'serif': ['ui-serif', 'Georgia'],
       'mono': ['ui-monospace', 'SFMono-Regular'],
-      'cursive': ['Imperial Script', 'cursive'],
+      'manus': ['Imperial Script','cursive'],
     },
     extend: {
       backgroundImage: {
