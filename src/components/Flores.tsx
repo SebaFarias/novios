@@ -7,7 +7,7 @@ export interface FloresProps{}
 
 const Flores: React.FunctionComponent<FloresProps> = props => {
   return(
-    <div className='relative h-[100px] md:h-[200px] w-full z-0 '>
+    <div className='relative h-[100px] md:h-[200px] w-full z-0 md:translate-y-20'>
       <div className="absolute inset-0">
         <div className=" relative h-full w-full translate-x-20 -translate-y-10 md:translate-x-40 md:-translate-y-20">
           <Image

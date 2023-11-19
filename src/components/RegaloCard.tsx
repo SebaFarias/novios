@@ -22,11 +22,11 @@ const RegaloCard: FunctionComponent<RegaloCardProps> = props => {
   
   return (
     <a href='/gracias'>
-    <li className="m-auto w-[230px] sm:w-[340px] list-none p-5 border-4 border-amber-950 hover:border-amber-800 hover:scale-105 transition-transform font-serif px-5 py-4 ">
-      <h2 className={`mb-3 text-2xl font-semibold text-slate-600`}>
+    <li className="rounded m-auto w-[230px] sm:w-[340px]  hover:scale-105 transition-transform font-serif px-5 py-4 bg-[#8C6238] text-[#F0E5DB] list-none p-5 border-4 border-[#D5B699] duration-300 ">
+      <h2 className={`mb-3 text-2xl font-semibold`}>
             {nombre}
           </h2>
-          <h3 className=" text-xl font-bold text-slate-600">{formatter.format(precio).replace(",",".")}</h3>
+          <h3 className=" text-xl font-bold text-[#E2CBB6] ">{formatter.format(precio).replace(",",".")}</h3>
     </li>
     </a>
   )
