@@ -15,7 +15,7 @@ const Hero : React.FunctionComponent<HeroProps> = props => {
       <NoviosNames/>
     </div>
     <Flores/>
-    <h2 className="text-center mt-16 font-serif text-amber-950 opacity-70">Tu compañía es nuestro mejor regalo </h2>
+    <h2 className="text-center font-serif text-amber-950 opacity-70">Tu compañía es nuestro mejor regalo </h2>
     <a href="/#regalos" className="text-xl border-4 border-amber-950 text-amber-950 rounded-full px-4 py-2 hover:scale-105 transition-transform z-20 font-bold opacity-50">V</a>
   </section>
   )
