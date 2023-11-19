@@ -1,4 +1,5 @@
 import Cuenta from "@/components/Cuenta";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <h1 className="text-center text-sm md:text-2xl mt-2 md:mt-8 font-serif text-amber-950 opacity-70">SÓLO QUEDA UN PASO, DEPOSITA EL MONTO EN ESTA CUENTA:</h1>
       </div>
       <Cuenta/>
-      <a href="/" className="font-serif  bg-[#8C6238] hover:text-[#F0E5DB] py-2 px-6 rounded text-[#D5B699] hover:scale-105 transition-all " >VOLVER</a>
+      <Link href="/" className="font-serif  bg-[#8C6238] hover:text-[#F0E5DB] py-2 px-6 rounded text-[#D5B699] hover:scale-105 transition-all " >VOLVER</Link>
     </main>
   )
 }

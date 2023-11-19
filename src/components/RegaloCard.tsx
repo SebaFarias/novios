@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FunctionComponent } from "react"
 
 export interface Regalo{
@@ -21,14 +22,14 @@ const RegaloCard: FunctionComponent<RegaloCardProps> = props => {
   const {nombre, precio,} = props.regalo
   
   return (
-    <a href='/gracias'>
+    <Link href='/gracias'>
     <li className="rounded m-auto w-[230px] sm:w-[340px]  hover:scale-105 transition-transform font-serif px-5 py-4 bg-[#8C6238] text-[#F0E5DB] list-none p-5 border-4 border-[#D5B699] duration-300 ">
       <h2 className={`mb-3 text-2xl font-semibold`}>
             {nombre}
           </h2>
           <h3 className=" text-xl font-bold text-[#E2CBB6] ">{formatter.format(precio).replace(",",".")}</h3>
     </li>
-    </a>
+    </Link>
   )
 }
 
