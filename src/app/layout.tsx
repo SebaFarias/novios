@@ -7,6 +7,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Andrea & Felipe',
   description: 'Lista de deseos para el matrimonio entre Andrea Díaz Ubilla y Felipe Norambuena',
+  metadataBase: new URL('https://novios.vercel.app'),
+  openGraph: {
+    images: "/opengraph-image.png"
+  }
 }
 
 export default function RootLayout({
