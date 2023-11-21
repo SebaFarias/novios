@@ -36,4 +36,11 @@ body{
   filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
   transform: scale(1.05);
 }
-
+.cortada{
+  border-right-style: dashed;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.hide{
+  opacity: 0;
+}
