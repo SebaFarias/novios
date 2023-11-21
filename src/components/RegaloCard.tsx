@@ -18,9 +18,9 @@ const formatter = new Intl.NumberFormat('en-US', {
   maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 
-const RegaloCard: FunctionComponent<RegaloCardProps> = ({ regalo, cortada = false}) => {
+const RegaloCard: FunctionComponent<RegaloCardProps> = ({regalo,cortada=false}) => {
   
-  const {nombre, precio,} = regalo
+  const {nombre, precio, } = regalo
   
   return (
     <Link href={`/gracias?regalo=${regalo.nombre}`}>
