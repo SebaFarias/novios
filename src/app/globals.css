@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap&text=FelipAndra');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=block&text=FelipAndra');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -20,11 +20,11 @@ html{
 }
 
 body{
-  background: radial-gradient(50% 50% at 50% 50%,rgba(254, 250, 249, 0.30) 60.42%,rgba(235, 205, 173, 0.60) 100%),#F8ECE0 url('https://raw.githubusercontent.com/SebaFarias/sorting-viewer/3ac81d54736cdd92fc1196f812cf9513460f2d7d/src/assets/background-noise.png');
+  background: radial-gradient(50% 50% at 50% 50%,rgba(254, 250, 249, 0.30) 60.42%,rgba(235, 205, 173, 0.60) 100%),#F8ECE0 url('https://andreayfelipe.vercel.app/background-noise.png');
 }
 
 .papel{
-  background: radial-gradient(50% 50% at 50% 50%,rgba(254, 250, 249, 0.30) 60.42%,rgba(235, 205, 173, 0.40) 100%),#F8ECE0 url('https://raw.githubusercontent.com/SebaFarias/sorting-viewer/3ac81d54736cdd92fc1196f812cf9513460f2d7d/src/assets/background-noise.png');
+  background: radial-gradient(50% 50% at 50% 50%,rgba(254, 250, 249, 0.30) 60.42%,rgba(235, 205, 173, 0.40) 100%),#F8ECE0 url('https://andreayfelipe.vercel.app/background-noise.png');
 }
 .agranda{
   filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
