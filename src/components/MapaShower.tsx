@@ -15,6 +15,7 @@ const MapaShower : React.FunctionComponent<MapaShowerProps> = props => {
           src={Mapa}
           alt="mapa al lugar"
           fill
+          sizes="80vmin"
           placeholder="blur"
       /></div>
       </a>

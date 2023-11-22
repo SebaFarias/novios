@@ -31,7 +31,7 @@ const RegaloCard: FunctionComponent<RegaloCardProps> = ({regalo,cortada=false}) 
         </h2>
         <h3 className=" text-xl font-bold text-amber-950 opacity-60 ">{formatter.format(precio).replace(",",".")}</h3>
       </div>
-      {!cortada && <div className=" w-[35px] h-[96px] border-l-2 border-dashed border-l-amber-950 opacity-30"/>}
+      {!cortada && <div className=" w-[35px] h-[96px] border-l-4 border-dashed border-l-amber-950 opacity-30"/>}
     </li>
     </Link>
   )
